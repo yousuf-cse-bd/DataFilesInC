@@ -29,7 +29,7 @@ int main(int argc, char const *argv[]){
         cout<<"The file succesfully fnound..."<<endl;
     }
 
-    free(filePtr);
+    fclose(filePtr);
     getch();
     return 0;
 }
